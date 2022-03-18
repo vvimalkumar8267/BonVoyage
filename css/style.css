@@ -434,8 +434,8 @@ p {
 
 .inputField,.selectField,.textAreaField {
     width: 100%;
-    padding: 5px;
-    border: 1px solid #ccc;
+    padding: 1em;
+    border: 2px solid rgb(6, 11, 87);
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
