@@ -146,10 +146,10 @@
             </div>
 
             <div class="logincontainer">
-                <label for="userName"><b>Username</b></label>
+                <label id="userName"><b>Username</b></label>
                 <input type="text" class="loginInputs" placeholder="Please Enter Username" name="userName" required>
 
-                <label for="password"><b>Password</b></label>
+                <label id="password"><b>Password</b></label>
                 <input type="password" class="loginInputs" placeholder="Please Enter Password" name="password" required>
 
                 <button type="submit" class="loginbutton">Login</button>
@@ -230,13 +230,13 @@
             <span onclick="document.getElementById('bonVoyageBookNowModal').style.display='none'"
                   class="bonVoyage-popup-modal-Close" title="Close BonVoyage Login Modal">&times;</span>
             <div class="logincontainer">
-                <label for="userName"><b>Trip Date</b></label>
-                <input type="date" class="loginInputs" placeholder="Enter Date" name="TripDate" required />
+                <label id="TripName"><b>Trip Date</b></label>
+                <input type="date" class="loginInputs" name="TripDate" required />
 
-                <label for="userName"><b>Contact Name</b></label>
+                <label id="contactName"><b>Contact Name</b></label>
                 <input type="text" class="loginInputs" placeholder="Enter Name" name="Name" required>
 
-                <label for="password"><b>Contact Email</b></label>
+                <label id="contactEmail"><b>Contact Email</b></label>
                 <input type="email" class="loginInputs" placeholder="Enter Email" name="Email" required>
 
                 <button type="button" onclick="BookTrip();" class="loginbutton">Book</button>
@@ -251,7 +251,7 @@
         <span onclick="document.getElementById('bonVoyageConfirmMessageModal').style.display='none'"
               class="bonVoyage-modal-Close" title="Close BonVoyage Login Modal">&times;</span>
 
-        <form class="loginform bonVoyage-modal-content" id="bonVoyageBookNow" method="post">
+        <form class="loginform bonVoyage-modal-content" id="confirmMessage" method="post">
             <span onclick="document.getElementById('bonVoyageConfirmMessageModal').style.display='none'"
                   class="bonVoyage-popup-modal-Close" title="Close BonVoyage Login Modal">&times;</span>
             <div class="logincontainer">
