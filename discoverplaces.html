@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="css/owl.carousel.min.css" rel="stylesheet">
+    <link href="css/owl.theme.default.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/jquery-ui.min.css" rel="stylesheet">
+    <link href="css/ion.rangeSlider.min.css" rel="stylesheet">
+    <title>Discover Places</title>
+
+
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header cf">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.svg" alt=""></a>
+            </div>
+            <aside class="hd_right">
+                <nav class="menu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a class="activemenu" href="discoverplaces.html">Discover Places</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="specialOffers.html">Special Offers</a></li>
+                        <li><a href="blog.html">Blogs</a></li>
+                        <li><a href="contactUs.html">Contact</a></li>
+                        <li><a href="book.html">Book Trip</a></li>
+                        <li><a href="thingsToDo.html">Things To Do</a></li>
+                        <li><a onclick="document.getElementById('bonVoyageLoginModal').style.display='block'">Login</a></li>
+                    </ul>
+                </nav>
+            </aside>
+        </div>
+        <div class="cf"></div>
+    </header>
+    <!-- header -->
+    <!-- start banner -->
+    <div class="discoverplaces-container">
+        <div class="wrap-fullscreen-image"></div>
+        <div class="cf"></div>
+    </div>
+    <!-- end banner -->
+    <!-- start content -->
+    <section class="container">
+        <div class="content-text">
+            <h2>Discover Places</h2>
+            <p>Let Adams & Butler open up a world of wonders and create magical memories that will stay with you far beyond your travels. Whatever your travel preference may be, whether you are looking for a cultural city break, a child friendly family holiday, unlimited adventure, a romantic getaway or just to escape and uncover, we are here to create a seamless experience while handcrafting your bespoke journey.</p>
+            <div class="cf"></div>
+        </div>
+    </section>
+    <!-- end content -->
+    <!-- start list-destinations -->
+    <section class="container">
+        <div class="wrap-destinations-list">
+            <a onclick="window.location.href ='trip-details.html'" class="destination-item">
+                <div class="image">
+                    <img alt="" src="images/discover1.jpg" />
+                </div>
+                <div class="wrap-title"><h5>Cochi</h5></div>
+            </a>
+            <a onclick="window.location.href ='trip-details.html'" class="destination-item">
+                <div class="image">
+                    <img alt="" src="images/discover2.jpg" />
+                </div>
+                <div class="wrap-title"><h5>Singapore</h5></div>
+            </a>
+            <a onclick="window.location.href ='trip-details.html'" class="destination-item">
+                <div class="image">
+                    <img alt="" src="images/discover3.jpg" />
+                </div>
+                <div class="wrap-title"><h5>Istanbul</h5></div>
+            </a>
+            <a onclick="window.location.href ='trip-details.html'" class="destination-item">
+                <div class="image">
+                    <img alt="" src="images/discover4.jpg" />
+                </div>
+                <div class="wrap-title"><h5>Sofia</h5></div>
+            </a>
+            <a onclick="window.location.href ='trip-details.html'" class="destination-item">
+                <div class="image">
+                    <img alt="" src="images/discover5.jpg" />
+                </div>
+                <div class="wrap-title"><h5>Dubai</h5></div>
+            </a>
+            <a onclick="window.location.href ='trip-details.html'" class="destination-item">
+                <div class="image">
+                    <img alt="" src="images/discover6.jpg" />
+                </div>
+                <div class="wrap-title"><h5>Tunisia</h5></div>
+            </a>
+            </a>
+
+        </div>
+        <div class="cf"></div>
+    </section>
+    <!-- end list-destinations -->
+    <!-- The Login Modal Begin -->
+
+    <div id="bonVoyageLoginModal" class="bonVoyagemodal">
+        <span onclick="document.getElementById('bonVoyageLoginModal').style.display='none'"
+              class="bonVoyage-modal-Close" title="Close BonVoyage Login Modal">&times;</span>
+
+        <form class="loginform bonVoyage-modal-content" method="post">
+
+
+
+            <div class="loginimgcontainer">
+                <h3>Login</h3>
+            </div>
+
+            <div class="logincontainer">
+                <label for="userName"><b>Username</b></label>
+                <input type="text" class="loginInputs" placeholder="Please Enter Username" name="userName" required>
+
+                <label for="password"><b>Password</b></label>
+                <input type="password" class="loginInputs" placeholder="Please Enter Password" name="password" required>
+
+                <button type="submit" class="loginbutton">Login</button>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+            </div>
+
+            <div class="logincontainer logincontainerbackGround">
+                <button type="button" onclick="document.getElementById('bonVoyageLoginModal').style.display='none'" class="logincancelbtn">Cancel</button>
+                <span class="forgotpassword">Forgot <a href="#">password?</a></span>
+            </div>
+        </form>
+    </div>
+
+    <!-- The Login Modal Ends -->
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_first_bx">
+                <figure class="footer_logo"><img src="images/footer-logo.svg" alt=""></img></figure>
+                <div class="cf"></div>
+                <p>
+                    Bon Voyage is a professionally managed company that focuses on the innovation of global tourism. Bon Voyages remain committed to our clients with a young and energetic team, who are self-motivated, professionally trained, and extremely
+                    competent.
+                </p>
+            </div>
+            <div class="footer_second_bx">
+                <h4>Popular Towers</h4>
+                <div class="footer_location">
+                    <div class="bx_fx">
+                        <ul>
+                            <li><a href="">Dubai</a></li>
+                            <li><a href="">Abu Dhabi</a></li>
+                            <li><a href="">Ajman</a></li>
+                            <li><a href="">Al Ain</a></li>
+                            <li><a href="">Ras Al-Khaimah</a></li>
+                        </ul>
+                    </div>
+                    <div class="bx_fx">
+                        <ul>
+                            <li><a href="">Dubai</a></li>
+                            <li><a href="">Abu Dhabi</a></li>
+                            <li><a href="">Ajman</a></li>
+                            <li><a href="">Al Ain</a></li>
+                            <li><a href="">Ras Al-Khaimah</a></li>
+                        </ul>
+                    </div>
+                    <div class="bx_fx">
+                        <ul>
+                            <li><a href="">Dubai</a></li>
+                            <li><a href="">Abu Dhabi</a></li>
+                            <li><a href="">Ajman</a></li>
+                            <li><a href="">Al Ain</a></li>
+                            <li><a href="">Ras Al-Khaimah</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="cf"></div>
+        </div>
+        <div class="footer_bottom">
+            <div class="container">
+                <div class="footer_bottom_left">
+                    <p>© 2022 Bon Voyage All Rights Reserved.</p>
+                </div>
+            </div>
+            <div class="cf"></div>
+        </div>
+
+    </footer>
+    <!-- Footer End -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/dateRangePicker.js"></script>
+    <script src="js/ion.rangeSlider.min.js"></script>
+</body>
+
+
+</html>
